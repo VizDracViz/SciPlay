@@ -1,4 +1,3 @@
-''' the need for a smoothening filter is felt '''
 import numpy as np
 from PIL import Image
 import os
@@ -716,4 +715,5 @@ class Position:
   imarr = np.array(arr, dtype = np.uint8)                   # imarr, having dtype uint8 doesn't support integer assignment (why?)
   im = Image.fromarray(imarr)
   return im
+
 
